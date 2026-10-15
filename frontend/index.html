@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lost & Found Board DApp</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🔎 Lost &amp; Found Board</h1>
+    <p class="sub">Post lost items, escrow a reward, and pay finders on-chain.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <button id="connectBtn">Connect MetaMask</button>
+      <p><b>Account:</b> <span id="account">Not connected</span></p>
+      <p><b>Network:</b> <span id="network">-</span></p>
+      <p><b>Admin:</b> <span id="admin">-</span></p>
+      <p><b>Total items posted:</b> <span id="total">-</span></p>
+    </section>
+
+    <section class="card">
+      <h2>Post a Lost Item</h2>
+      <input id="title" placeholder="Item title (e.g. Black Wallet)">
+      <input id="description" placeholder="Description">
+      <input id="location" placeholder="Where was it lost?">
+      <input id="reward" placeholder="Reward in ETH (optional, e.g. 0.01)">
+      <button id="postBtn">Post Item</button>
+    </section>
+
+    <p id="status"></p>
+
+    <section>
+      <h2>Items on the Board</h2>
+      <button id="refreshBtn" class="secondary">Refresh</button>
+      <div id="items"></div>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

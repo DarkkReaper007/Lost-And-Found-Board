@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f2f5f9; margin: 0; color: #222; }
+header { background: #1f3a5f; color: #fff; padding: 20px; text-align: center; }
+header h1 { margin: 0; }
+.sub { margin: 6px 0 0; opacity: .85; }
+main { max-width: 820px; margin: 20px auto; padding: 0 14px; }
+.card, .item { background: #fff; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 2px 6px rgba(0,0,0,.08); }
+input { width: 100%; padding: 10px; margin: 6px 0; border: 1px solid #c8d0da; border-radius: 6px; }
+button { background: #2b6cb0; color: #fff; border: 0; padding: 9px 14px; border-radius: 6px; cursor: pointer; margin: 4px 4px 0 0; }
+button:hover { background: #1f4f85; }
+button.secondary { background: #6b7a8c; }
+button.danger { background: #c0392b; }
+#status { padding: 10px; border-radius: 6px; word-break: break-all; }
+#status.ok { background: #e6f6ea; color: #1b6b32; }
+#status.err { background: #fdeaea; color: #a61b1b; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12px; color: #fff; }
+.s0 { background: #2b6cb0; } .s1 { background: #d98e04; } .s2 { background: #2f9e44; } .s3 { background: #777; }
+.addr { font-family: monospace; font-size: 12px; word-break: break-all; }
+.item h3 { margin: 0 0 6px; }
