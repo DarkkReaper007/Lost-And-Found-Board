@@ -31,9 +31,9 @@ Lost items are usually reported on notice boards or social media with no trust o
 | Item | Value |
 |---|---|
 | Network | Sepolia Testnet (chain ID 11155111) |
-| Contract address | `0xPASTE_CONTRACT_ADDRESS_HERE` |
+| Contract address | `0x44c6212714c9711057baAA5dE2463Ad71bea0920` |
 | Deployer / admin address | `0xDCe4402C6af5a7dA0C90265Fc285Dfd423AB6143` |
-| Deployment tx hash | `0xPASTE_DEPLOYMENT_TX_HASH_HERE` |
+| Deployment tx hash | `0x830c55a8d16c0fa11772da2266ee9076f804f078eeb08d31eeb65329aff757f8` |
 | Compiler | Solidity 0.8.20 |
 
 View on Etherscan: `https://sepolia.etherscan.io/address/0xPASTE_CONTRACT_ADDRESS_HERE`
